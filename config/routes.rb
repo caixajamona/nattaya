@@ -1,4 +1,8 @@
 Nattaya::Application.routes.draw do
+
+  resources :posts #generate url for controller, automatically generate path name with restful type.
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
