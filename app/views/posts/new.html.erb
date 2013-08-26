@@ -1,0 +1,18 @@
+<!-- <form blah blah blah >
+
+</form> -->
+
+<%= form_for @post do |f| %>
+  <div>
+    <%= f.label :title %>
+    <%= f.text_field :title, required: true %>
+  </div>
+  <div>
+  	<%= f.label :text %>
+  	<%= f.text_area :text, required: true %>
+  </div>
+  <div>
+  	<%= f.submit 'KUMA!!' %>
+  </div>
+
+<% end %>
